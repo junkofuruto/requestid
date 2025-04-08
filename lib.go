@@ -10,7 +10,7 @@ import (
 type contextKey string
 
 const (
-	requestIdKey    = contextKey("REQUEST_ID")
+	requestIdKey    = contextKey("CMG_MIDDLEWARE_REQUEST_ID")
 	requestIdHeader = "X-Request-Id"
 )
 
